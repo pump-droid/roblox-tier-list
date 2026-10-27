@@ -1,0 +1,22 @@
+{
+  "name": "roblox-tierlist-secure",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "check": "node scripts/security-check.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.76.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.7"
+  },
+  "engines": {"node": ">=22.12.0"}
+}
